@@ -1,10 +1,6 @@
-<img src="doc/subbrand-stm32.svg" width="50" alt="STM32 Subbrand Logo"/>
-
 # __Example: *SensorDataTransmit*__
 
 **Example version:** 1.0.0
-
-[![User Manual](doc/read_the-UM.svg)](https://dev.st.com/stm32cube-docs/examples/arch-v1/en/index.html "An offline version is also available in the STM32Cube firmware package.")
 
 How to use the STM32_BLE_Manager middleware to transmit environmental data and sensor-fusion information over Bluetooth Low Energy and to control an LED from the ST BLE Sensor mobile application.
 This example sends temperature, humidity, pressure, and quaternion data to a mobile device.
@@ -57,8 +53,6 @@ If you enable `USE_TRACE`, you can follow these execution steps in the terminal 
 ```
 
 ## __2. Example configuration__
-
-[![Configuration Manual](doc/configure_with-ConfigurationMa.svg)](https://dev.st.com/stm32cube-docs/examples/arch-v1/en/configure/config_toc.html "An offline version is also available in the STM32Cube firmware package.")
 
 This example demonstrates the functionality of the `STM32_BLE_Manager` and `BlueNR2` middlewares.
 
@@ -138,8 +132,6 @@ To create a functional project, complete the following steps:
 
 ## __5. Troubleshooting__
 
-[![Troubleshooting](doc/debug_with-Troubleshooting.svg)](https://dev.st.com/stm32cube-docs/examples/arch-v1/en/debug/debug_toc.html "An offline version is also available in the STM32Cube firmware package.")
-
 Find below the points of attention for this specific example.
 
 __Trace output__: Enable `USE_TRACE=1` if you want to monitor the execution flow through the terminal logs.
@@ -150,8 +142,6 @@ __Generated project settings__: After code generation, update the IDE settings a
 - In the **Linker Script**, set **CSTACK = 0x4000** and **HEAP = 0x5000**.
 
 ## __6. See Also__
-
-[![SeeAlso](doc/go_further_with-STM32.svg)](https://dev.st.com/stm32cube-docs/examples/arch-v1/en/more/more_toc.html "An offline version is also available in the STM32Cube firmware package.")
 
 More information about the `X-NUCLEO-BNRG2A1` expansion board can be found in the [Update procedure and configuration in DTM firmware for X-NUCLEO-BNRG2A1](https://www.st.com/resource/en/application_note/an5651-update-procedure-and-configuration-in-dtm-firmware-for-xnucleobnrg2a1-stmicroelectronics.pdf).
 
